@@ -1,0 +1,90 @@
+.footer-top {
+    padding: 3em 0;
+    background-color: $colorDcComics;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        img {
+          width: 3em;
+          margin: 0 1em;
+        }
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: white;
+        }
+      }
+    }
+  }
+  .footer-center {
+    background-image: url("../../img/footer-bg.jpg");
+    .container {
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .background-logo {
+        padding: 2em 0 2em 0;
+        background-image: url("../../img/dc-logo-bg.png");
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-position-y: 50%;
+        .first-col, .second-col, .third-col {
+          float: left;
+          width: 15%;
+          h3 {
+              text-transform: uppercase;
+              padding: 0.8em 0;
+              color: white;
+          }
+          .footer-list {
+              display: flex;
+              flex-direction: column;
+              list-style: none;
+              .footer-list-item {
+                  padding-bottom: 0.5em;
+                  font-size: 0.9em;
+                  a {
+                      text-decoration: none;
+                      color: #959595;
+                  }
+              }
+          }
+        }     
+      }   
+    }
+  }
+  .footer-bottom {
+    background-color: #303030;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        padding: 2em 0;
+        .sign-up {
+            border: 2px solid #0282F9;
+            padding: 1em;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+        .social {
+            display: flex;
+            align-items: center;
+            h3 {
+                padding-right: 2em;
+                color: #0282F9;
+            }
+            ul li {
+                display: inline-block;
+                padding: 0 0.5em;
+            }
+        }
+    }
+  }

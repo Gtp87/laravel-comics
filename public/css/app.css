@@ -106,3 +106,94 @@ ul li a {
   padding: 2em 0;
   margin: 0 1em;
 }
+
+.footer-top {
+  padding: 3em 0;
+  background-color: #0282F9;
+}
+.footer-top ul {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-top ul li {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.footer-top ul li img {
+  width: 3em;
+  margin: 0 1em;
+}
+.footer-top ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.footer-center {
+  background-image: url("../../img/footer-bg.jpg");
+}
+.footer-center .container .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.footer-center .container .background-logo {
+  padding: 2em 0 2em 0;
+  background-image: url("../../img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50%;
+}
+.footer-center .container .background-logo .first-col, .footer-center .container .background-logo .second-col, .footer-center .container .background-logo .third-col {
+  float: left;
+  width: 15%;
+}
+.footer-center .container .background-logo .first-col h3, .footer-center .container .background-logo .second-col h3, .footer-center .container .background-logo .third-col h3 {
+  text-transform: uppercase;
+  padding: 0.8em 0;
+  color: white;
+}
+.footer-center .container .background-logo .first-col .footer-list, .footer-center .container .background-logo .second-col .footer-list, .footer-center .container .background-logo .third-col .footer-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.footer-center .container .background-logo .first-col .footer-list .footer-list-item, .footer-center .container .background-logo .second-col .footer-list .footer-list-item, .footer-center .container .background-logo .third-col .footer-list .footer-list-item {
+  padding-bottom: 0.5em;
+  font-size: 0.9em;
+}
+.footer-center .container .background-logo .first-col .footer-list .footer-list-item a, .footer-center .container .background-logo .second-col .footer-list .footer-list-item a, .footer-center .container .background-logo .third-col .footer-list .footer-list-item a {
+  text-decoration: none;
+  color: #959595;
+}
+
+.footer-bottom {
+  background-color: #303030;
+}
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 2em 0;
+}
+.footer-bottom .container .sign-up {
+  border: 2px solid #0282F9;
+  padding: 1em;
+}
+.footer-bottom .container .sign-up a {
+  text-decoration: none;
+  color: white;
+}
+.footer-bottom .container .social {
+  display: flex;
+  align-items: center;
+}
+.footer-bottom .container .social h3 {
+  padding-right: 2em;
+  color: #0282F9;
+}
+.footer-bottom .container .social ul li {
+  display: inline-block;
+  padding: 0 0.5em;
+}

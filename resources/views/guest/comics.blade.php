@@ -1,1 +1,9 @@
-<h1>comics</h1>
+@extends('guest.layout.base')
+
+@section('documentTitle')
+    Comics
+@endsection
+
+@section('content')
+    <h1>Ccomics</h1>
+@endsection

@@ -91,14 +91,14 @@ header .header-dx {
   display: flex;
 }
 
-ul {
+.navbar {
   display: flex;
 }
-ul li {
+.navbar .navbar-item {
   display: flex;
   list-style-type: none;
 }
-ul li a {
+.navbar .navbar-item a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -131,39 +131,48 @@ ul li a {
 }
 
 .footer-center {
-  background-image: url("../../img/footer-bg.jpg");
+  background-image: url(../../img/footer-bg.jpg);
+  background-size: contain;
 }
-.footer-center .container .clearfix::after {
+.footer-center .background-logo {
+  padding: 2em 0 2em 0;
+  background-image: url(../..img/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: 85%;
+  background-position-y: 50%;
+}
+.footer-center .background-logo .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
-.footer-center .container .background-logo {
-  padding: 2em 0 2em 0;
-  background-image: url("../../img/dc-logo-bg.png");
-  background-repeat: no-repeat;
-  background-position-x: 100%;
-  background-position-y: 50%;
-}
-.footer-center .container .background-logo .first-col, .footer-center .container .background-logo .second-col, .footer-center .container .background-logo .third-col {
+.footer-center .background-logo .first-col,
+.footer-center .background-logo .second-col,
+.footer-center .background-logo .third-col {
   float: left;
   width: 15%;
 }
-.footer-center .container .background-logo .first-col h3, .footer-center .container .background-logo .second-col h3, .footer-center .container .background-logo .third-col h3 {
+.footer-center .background-logo .first-col h3,
+.footer-center .background-logo .second-col h3,
+.footer-center .background-logo .third-col h3 {
   text-transform: uppercase;
   padding: 0.8em 0;
   color: white;
 }
-.footer-center .container .background-logo .first-col .footer-list, .footer-center .container .background-logo .second-col .footer-list, .footer-center .container .background-logo .third-col .footer-list {
-  display: flex;
-  flex-direction: column;
+.footer-center .background-logo .first-col ul,
+.footer-center .background-logo .second-col ul,
+.footer-center .background-logo .third-col ul {
   list-style: none;
 }
-.footer-center .container .background-logo .first-col .footer-list .footer-list-item, .footer-center .container .background-logo .second-col .footer-list .footer-list-item, .footer-center .container .background-logo .third-col .footer-list .footer-list-item {
+.footer-center .background-logo .first-col ul li,
+.footer-center .background-logo .second-col ul li,
+.footer-center .background-logo .third-col ul li {
   padding-bottom: 0.5em;
   font-size: 0.9em;
 }
-.footer-center .container .background-logo .first-col .footer-list .footer-list-item a, .footer-center .container .background-logo .second-col .footer-list .footer-list-item a, .footer-center .container .background-logo .third-col .footer-list .footer-list-item a {
+.footer-center .background-logo .first-col ul li a,
+.footer-center .background-logo .second-col ul li a,
+.footer-center .background-logo .third-col ul li a {
   text-decoration: none;
   color: #959595;
 }

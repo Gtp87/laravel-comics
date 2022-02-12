@@ -11,9 +11,9 @@ header {
             display: flex;
         }
     }
-    ul {
+    .navbar {
         display: flex;
-        li {
+        .navbar-item {
             display: flex;
             list-style-type: none;
             a {

@@ -1,1 +1,9 @@
-<h3>fans</h3>
+@extends('guest.layout.base')
+
+@section('documentTitle')
+    Fans
+@endsection
+
+@section('content')
+    <h1>Fans</h1>
+@endsection

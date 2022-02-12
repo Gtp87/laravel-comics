@@ -26,54 +26,54 @@
       </div>
     </div>
     <div class="footer-center">
-      <div class="container">
-        <div class="background-logo clearfix">
-          <div class="first-col">
-            <h3>dc comics</h3>
-              <ul class="footer-list">
-                <li class="footer-list-item"><a>Characters</a></li>
-                <li class="footer-list-item"><a>Comics</a></li>
-                <li class="footer-list-item"><a>Movies</a></li>
-                <li class="footer-list-item"><a>TV</a></li>
-                <li class="footer-list-item"><a>Games</a></li>
-                <li class="footer-list-item"><a>Videos</a></li>
-                <li class="footer-list-item"><a>News</a></li>
-              </ul>
-            <h3>shop</h3>
-              <ul class="footer-list">
-                  <li class="footer-list-item"><a>Shop DC</a></li>
-                  <li class="footer-list-item"><a>Shop DC Collectibles</a></li>
-              </ul>
+      <div class="background-logo">
+          <div class="container clearfix">
+              <div class="first-col">
+                  <h3>dc comics</h3>
+                  <ul>
+                      <li><a href="#">Characters</a></li>
+                      <li><a href="#">Comics</a></li>
+                      <li><a href="#">Movies</a></li>
+                      <li><a href="#">TV</a></li>
+                      <li><a href="#">Games</a></li>
+                      <li><a href="#">Videos</a></li>
+                      <li><a href="#">News</a></li>
+                  </ul>
+                  <h3>shop</h3>
+                  <ul>
+                      <li><a href="#">Shop DC</a></li>
+                      <li><a href="#">Shop DC Collectibles</a></li>
+                  </ul>
+              </div>
+              <div class="second-col">
+                  <h3>dc</h3>
+                  <ul>
+                      <li><a href="#">Terms Of Use</a></li>
+                      <li><a href="#">Privacy policy (New)</a></li>
+                      <li><a href="#">Ad Choiches</a></li>
+                      <li><a href="#">Advertising</a></li>
+                      <li><a href="#">Jobs</a></li>
+                      <li><a href="#">Subscriptions</a></li>
+                      <li><a href="#">Talent Workshops</a></li>
+                      <li><a href="#">CPSC Certificates</a></li>
+                      <li><a href="#">Ratings</a></li>
+                      <li><a href="#">Shop Help</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                  </ul>
+              </div>
+              <div class="third-col">
+                  <h3>sites</h3>
+                  <ul>
+                      <li><a href="#">DC</a></li>
+                      <li><a href="#">MAD Magazine</a></li>
+                      <li><a href="#">DC Kids</a></li>
+                      <li><a href="#">DC Universe</a></li>
+                      <li><a href="#">DC Power Visa</a></li>
+                  </ul>
+              </div>
           </div>
-          <div class="second-col">
-            <h3>dc</h3>
-              <ul class="footer-list">
-                <li class="footer-list-item"><a>Terms Of Use</a></li>
-                <li class="footer-list-item"><a>Privacy policy (New)</a></li>
-                <li class="footer-list-item"><a>Ad Choiches</a></li>
-                <li class="footer-list-item"><a>Advertising</a></li>
-                <li class="footer-list-item"><a>Jobs</a></li>
-                <li class="footer-list-item"><a>Subscriptions</a></li>
-                <li class="footer-list-item"><a>Talent Workshops</a></li>
-                <li class="footer-list-item"><a>CPSC Certificates</a></li>
-                <li class="footer-list-item"><a>Ratings</a></li>
-                <li class="footer-list-item"><a>Shop Help</a></li>
-                <li class="footer-list-item"><a>Contact Us</a></li>
-              </ul>
-          </div>
-          <div class="third-col">
-            <h3>sites</h3>
-              <ul class="footer-list">
-                <li class="footer-list-item"><a>DC</a></li>
-                <li class="footer-list-item"><a>MAD Magazine</a></li>
-                <li class="footer-list-item"><a>DC Kids</a></li>
-                <li class="footer-list-item"><a>DC Universe</a></li>
-                <li class="footer-list-item"><a>DC Power Visa</a></li>
-              </ul>
-          </div>
-        </div>
-          </div>
-    </div>
+      </div>
+  </div>
     <div class="footer-bottom">
       <div class="container">
         <div class="sign-up">

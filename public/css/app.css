@@ -61,6 +61,10 @@ main {
   text-transform: uppercase;
   font-size: 0.8em;
 }
+.thumbs .thumb a {
+  text-decoration: none;
+  color: white;
+}
 
 .container-btm {
   display: flex;

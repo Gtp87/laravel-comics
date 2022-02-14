@@ -14,12 +14,14 @@
   <div class="container">
       <div class="thumbs">
         @foreach ($comics as $comic)
-        <div class="thumb">
-          <div class="img-container">
-            <img src="{{ $comic['thumb'] }}" alt="">
+        <a href="{{route('comic', $comic['id'])}}">
+          <div class="thumb">
+            <div class="img-container">
+              <img src="{{ $comic['thumb'] }}" alt="">
+            </div>
+            <span class="subtitle">{{ $comic['title'] }}</span>
           </div>
-          <span class="subtitle">{{ $comic['title'] }}</span>
-        </div>
+        </a>
         @endforeach
       </div>  
       <div class="container-btm">

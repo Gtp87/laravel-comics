@@ -1,9 +1,9 @@
 @extends('guest.layout.base')
 
 @section('documentTitle')
-    Comics
+{{$nomePagina}}
 @endsection
 
 @section('content')
-    <h1>Comics</h1>
+   <h2>{{$comic['title']}}</h2> 
 @endsection

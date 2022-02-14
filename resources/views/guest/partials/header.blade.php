@@ -18,4 +18,5 @@
             <li class="navbar-item"> <a href="{{route('shop')}}">shop</a></li>
         </ul>
     </div>
+    
 </header>

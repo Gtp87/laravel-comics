@@ -5,5 +5,14 @@
 @endsection
 
 @section('content')
-   <h2>{{$comic['title']}}</h2> 
+<div class="jumbo-comic"></div> 
+<div class="blue-banner"></div>
+<div class="container">
+    <div class="comic-container">
+        <img class="thumb-img" src="{{ $comic['thumb'] }}" alt="{{$comic['title'] }}">
+    </div>
+    <h3>{{$comic['title']}}</h3>
+    
+</div>
+
 @endsection

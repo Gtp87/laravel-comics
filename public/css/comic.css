@@ -1,3 +1,7 @@
+.comic {
+  background-color: white;
+}
+
 .jumbo-comic {
   background-image: url("../../img/jumbotron.jpg");
   background-size: cover;
@@ -10,18 +14,97 @@
   background-color: #0282F9;
 }
 
-.container {
-  width: 60%;
+.container-55 {
+  width: 55%;
   padding: 3em 0;
+  margin: auto;
   position: relative;
 }
-.container .comic-container {
+.container-55 .comic-info {
   position: absolute;
-  top: -65%;
+  top: -330px;
   border: 1px solid white;
-  height: 200px;
+  width: 200px;
   overflow: hidden;
 }
-.container .comic-container .thumb-img {
-  height: 100%;
+.container-55 .comic-info img {
+  width: 100%;
+}
+.container-55 .comic-info .blue-bar {
+  background-color: #00a8d9;
+  text-transform: uppercase;
+  position: absolute;
+  color: white;
+}
+.container-55 .comic-info .blue-bar.book {
+  top: 0;
+  padding: 0.3em 0.5em;
+}
+.container-55 .comic-info .blue-bar.gallery {
+  bottom: 0;
+  width: 100%;
+  padding: 0.3em 0.5em;
+  text-align: center;
+}
+.container-55 .book-container {
+  display: flex;
+  width: 100%;
+}
+.container-55 .book-container .description {
+  width: 80%;
+  margin-right: 2em;
+}
+.container-55 .book-container .description .comic-title {
+  text-transform: uppercase;
+  color: #1c405d;
+  font-size: 1.3em;
+  padding: 1em 0;
+}
+.container-55 .book-container .description .container-available {
+  width: 100%;
+  display: flex;
+  color: white;
+  font-size: 0.8em;
+}
+.container-55 .book-container .description .container-available .left-col {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #55ba58;
+  border-bottom: 1px solid #357739;
+  border-right: 1px solid #357739;
+  padding: 0.9em;
+}
+.container-55 .book-container .description .container-available .left-col .us-price {
+  color: #aff892;
+}
+.container-55 .book-container .description .container-available .left-col .check-available {
+  text-transform: uppercase;
+  color: #aff892;
+}
+.container-55 .book-container .description .container-available .right-col {
+  width: 30%;
+  background-color: #55ba58;
+  border-bottom: 1px solid #357739;
+  padding: 0.8em;
+  display: flex;
+  justify-content: center;
+}
+.container-55 .book-container .description .container-available .right-col .text-available {
+  display: flex;
+  align-items: center;
+}
+.container-55 .book-container .description {
+  padding-top: 0.7em;
+  color: #555555;
+  line-height: 1.4em;
+}
+.container-55 .advertisement span {
+  display: inline-block;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+}
+.container-55 .advertisement span img {
+  width: 100%;
 }

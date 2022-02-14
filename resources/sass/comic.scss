@@ -1,5 +1,8 @@
 @import "partials/variables";
 
+.comic {
+    background-color: white;
+}
 .jumbo-comic {
     background-image: url("../../img/jumbotron.jpg");
     background-size: cover;
@@ -11,18 +14,105 @@
     background-color: $colorDcComics;
 }
 
-.container {
-    width: 60%;
+.container-55 {
+    width: 55%;
     padding: 3em 0;
+    margin: auto;
     position: relative;
-    .comic-container {
+    .comic-info{
         position: absolute;
-        top: -65%;
+        top: -330px;
         border: 1px solid white;
-        height: 200px;
+        width: 200px;
         overflow: hidden;
-        .thumb-img {
-            height: 100%;
+        img {
+            width: 100%;
+        }
+        .blue-bar {
+            background-color: #00a8d9;
+            text-transform: uppercase;
+            position: absolute;
+            color: white;
+            &.book {
+                top: 0;
+                padding: 0.3em 0.5em;
+            }
+            &.gallery {
+                bottom: 0;
+                width: 100%;
+                padding: 0.3em 0.5em;
+                text-align: center;
+            }
+        }
+    }
+    .book-container {
+        display: flex;
+        width: 100%;
+
+        .description {
+            width: 80%;
+            margin-right: 2em;
+
+            .comic-title {
+                text-transform: uppercase;
+                color: #1c405d;
+                font-size: 1.3em;
+                padding: 1em 0;
+            }
+            .container-available {
+                width: 100%;
+                display: flex;
+                color: white;
+                font-size: 0.8em;
+
+                .left-col {
+                    width: 70%;
+                    display: flex;
+                    justify-content: space-between;
+                    background-color: #55ba58;
+                    border-bottom: 1px solid #357739;
+                    border-right: 1px solid #357739;
+                    padding: 0.9em;
+                    
+                    .us-price {
+                        color: #aff892;
+                    }
+                    .check-available {
+                        text-transform: uppercase;
+                        color: #aff892;
+                    }
+                }
+                .right-col{
+                    width: 30%;
+                    background-color: #55ba58;
+                    border-bottom: 1px solid #357739;
+                    padding: 00.8em;
+                    display: flex;
+                    justify-content: center;
+                    
+                    .text-available {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+        }    
+        
+        .description {
+            padding-top: 0.7em;
+            color: #555555;
+            line-height: 1.4em;
+        }
+    }
+    .advertisement {
+        span {
+            display: inline-block;
+            width: 100%;
+            text-transform: uppercase;
+            text-align: center;
+            img {
+                width: 100%;
+            }
         }
     }
 }

@@ -108,3 +108,57 @@
 .container-55 .advertisement span img {
   width: 100%;
 }
+
+.talent-spec-container {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 2em 0;
+}
+.talent-spec-container .information {
+  width: 55%;
+  margin: auto;
+  display: flex;
+}
+.talent-spec-container .information .information-left {
+  margin-right: 2em;
+}
+.talent-spec-container .information .informnation-right {
+  margin-left: 2em;
+}
+.talent-spec-container .information .information-left,
+.talent-spec-container .information .information-right {
+  width: 50%;
+}
+.talent-spec-container .information .information-left .info-talent,
+.talent-spec-container .information .information-right .info-talent {
+  padding-bottom: 1em;
+  font-size: 1.2em;
+  color: #1c405d;
+  border-bottom: 1px solid #e3e3e3;
+}
+.talent-spec-container .information .information-left .info-bottom,
+.talent-spec-container .information .information-right .info-bottom {
+  display: flex;
+  width: 100%;
+  font-size: 0.8em;
+  padding: 0.7em 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+.talent-spec-container .information .information-left .info-bottom .info-title,
+.talent-spec-container .information .information-right .info-bottom .info-title {
+  width: 30%;
+  color: #1c405d;
+}
+.talent-spec-container .information .information-left .info-bottom .description-info,
+.talent-spec-container .information .information-right .info-bottom .description-info {
+  width: 70%;
+}
+.talent-spec-container .information .information-left .info-bottom .description-info a,
+.talent-spec-container .information .information-right .info-bottom .description-info a {
+  text-decoration: none;
+  color: #00a9d9;
+}
+.talent-spec-container .information .information-left .info-bottom .description-info .uppercase,
+.talent-spec-container .information .information-right .info-bottom .description-info .uppercase {
+  text-transform: uppercase;
+}

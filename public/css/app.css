@@ -110,6 +110,10 @@ header .header-dx {
   padding: 2em 0;
   margin: 0 1em;
 }
+.navbar .navbar-item.active {
+  color: #0282F9;
+  border-bottom: 3px solid #0282F9;
+}
 
 .footer-top {
   padding: 3em 0;

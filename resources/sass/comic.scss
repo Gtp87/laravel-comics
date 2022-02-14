@@ -116,3 +116,61 @@
         }
     }
 }
+
+.talent-spec-container {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 2em 0;
+
+    .information {
+        width: 55%;
+        margin: auto;
+        display: flex;
+
+        .information-left {
+            margin-right: 2em;
+        }
+
+        .informnation-right{
+            margin-left: 2em;
+        }
+
+        .information-left,
+        .information-right {
+            width: 50%;
+
+            .info-talent {
+                padding-bottom: 1em;
+                font-size: 1.2em;
+                color: #1c405d;
+                border-bottom: 1px solid #e3e3e3;
+            }
+
+            .info-bottom {
+                display: flex;
+                width: 100%;
+                font-size: 0.8em;
+                padding: 0.7em 0;
+                border-bottom: 1px solid #e3e3e3;
+
+                .info-title {
+                    width: 30%;
+                    color: #1c405d;
+                }
+
+                .description-info {
+                    width: 70%;
+
+                    a {
+                        text-decoration: none;
+                        color: #00a9d9;
+                    }
+
+                    .uppercase {
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
